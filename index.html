@@ -9,9 +9,7 @@
     <!-- Normalize File -->
     <link rel="stylesheet" href="css/normalize.css">
     <!-- Fontawesome Library -->
-    <link rel="stylesheet" href="css/all.css">
-    <!-- Website Stylesheet -->
-    <link rel="stylesheet" href="/fontawesome/css/all.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Google Fonts "Cairo" Font -->
@@ -29,54 +27,56 @@
             <a href="#" class="logo">Elzero</a>
             <nav>
                 <ul>
-                    <li><a href="#">Articles</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li class="f"><a href="#">Other links</a></li>
+                    <li><a href="#article">Articles</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#feature">Features</a></li>
+                    <li class="mega"><a href="#">Other links</a></li>
                     <div class="mega-menu">
-                        <div class="mega-image"><img src="content/megamenu.png" alt="Mega Menu Image"></div>
+                        <div class="image">
+                            <img src="content/megamenu.png" alt="Mega Menu Image">
+                        </div>
                         <ul>
                             <li>
                                 <i class="fa-regular fa-comments"></i>
-                                <a href="#">Testimonials</a>
+                                <a href="#testimonials">Testimonials</a>
                             </li>
                             <li>
                                 <i class="fa-regular fa-user"></i>
-                                <a href="#">Team Members</a>
+                                <a href="#team">Team Members</a>
                             </li>
                             <li>
                                 <i class="fa-regular fa-building"></i>
-                                <a href="#">Services</a>
+                                <a href="#services">Services</a>
                             </li>
                             <li>
                                 <i class="fa-regular fa-circle-check"></i>
-                                <a href="#">Our Skills</a>
+                                <a href="#skills">Our Skills</a>
                             </li>
                             <li>
                                 <i class="fa-regular fa-clipboard"></i>
-                                <a href="#">How it Works</a>
+                                <a href="#work">How it Works</a>
                             </li>
                         </ul>
                         <ul>
                             <li>
                                 <i class="fa-solid fa-calendar-days"></i>
-                                <a href="#">Events</a>
+                                <a href="#event">Events</a>
                             </li>
                             <li>
                                 <i class="fa-solid fa-server"></i>
-                                <a href="#">Pricing Plans</a>
+                                <a href="#plans">Pricing Plans</a>
                             </li>
                             <li>
                                 <i class="fa-regular fa-circle-play"></i>
-                                <a href="#">Top Videos</a>
+                                <a href="#videos">Top Videos</a>
                             </li>
                             <li>
                                 <i class="fa-solid fa-chart-column"></i>
-                                <a href="#">Stats</a>
+                                <a href="#stats">Stats</a>
                             </li>
                             <li>
                                 <i class="fa-solid fa-percent"></i>
-                                <a href="#">Request A Discount</a>
+                                <a href="#discount">Request A Discount</a>
                             </li>
                         </ul>
                     </div>
@@ -86,7 +86,7 @@
     </header>
     <!-- End Header -->
     <!-- Start Landing -->
-    <div class="landing">
+    <div class="landing" id="landing">
         <div class="container">
             <div class="text">
                 <h1>Welcome, To Elzero World</h1>
@@ -97,12 +97,12 @@
             <div class="landing-image">
                 <img src="content/landing-image.png" alt="landing image" width="100%">
             </div>
-            <a href="#" class="fa-solid fa-angles-down angle-down"></a>
+            <a href="#article" class="fa-solid fa-angles-down angle-down"></a>
         </div>
     </div>
     <!-- End Landing -->
     <!-- Start Article -->
-    <div class="article">
+    <div class="article" id="article">
         <div class="container">
             <div class="special-head"><p>Articles</p></div>
             <div class="article-content">
@@ -199,7 +199,7 @@
     </div>
     <!-- End Article -->
     <!-- Start Gallery -->
-    <div class="gallery">
+    <div class="gallery" id="gallery">
         <div class="spike"></div>
         <div class="container">
             <div class="special-head"><p>Gallery</p></div>
@@ -227,7 +227,7 @@
     </div>
     <!-- End Gallery -->
     <!-- Start Features -->
-    <div class="feature">
+    <div class="feature" id="feature">
         <div class="special-head"><p>FEATURES</p></div>
         <div class="container">
             <div class="box one">
@@ -264,7 +264,7 @@
     </div>
     <!-- End Features -->
     <!-- Start Testimonials -->
-    <div class="testimonials">
+    <div class="testimonials" id="testimonials">
         <div class="container">
             <div class="special-head"><p>Testimonials</p></div>
             <div class="testimonials-content">
@@ -351,7 +351,7 @@
     </div>
     <!-- End Testimonials -->
     <!-- Start Team Members -->
-    <div class="team">
+    <div class="team" id="team">
         <div class="special-head"><p>TEAM MEMBERS</p></div>
         <div class="container">
             <div class="box">
@@ -478,7 +478,7 @@
     </div>
     <!-- End Team Members -->
     <!-- Start Services -->
-    <div class="services">
+    <div class="services" id="services">
         <div class="spike"></div>
         <div class="special-head"><p>SERVICES</p></div>
         <div class="container">
@@ -534,7 +534,7 @@
     </div>
     <!-- End Services -->
     <!-- Start Our Skills -->
-    <div class="skills">
+    <div class="skills" id="skills">
         <div class="special-head"><p>OUR SKILLS</p></div>
         <div class="container">
             <img src="content/skills.png" alt="skills Image">
@@ -560,7 +560,7 @@
     </div>
     <!-- End Our Skills -->
     <!-- Start Work -->
-    <div class="work">
+    <div class="work" id="work">
         <div class="special-head"><p>HOW IT WORKS ?</p></div>
         <div class="container">
             <img src="content/work-steps.png" alt="Work Steps" height="80%">
@@ -591,7 +591,7 @@
     </div>
     <!-- End Work -->
     <!-- Start Events -->
-    <div class="event">
+    <div class="event" id="event">
         <div class="special-head"><p>LATEST EVENTS</p></div>
         <img src="content/dots.png" alt="dots" class="r-dot">
         <img src="content/dots.png" alt="dots" class="l-dot">
@@ -651,7 +651,7 @@
     </div>
     <!-- End Events -->
     <!-- Start Pricing -->
-        <div class="plans">
+        <div class="plans" id="plans">
             <div class="special-head"><p>PRICING PLANS</p></div>
             <img src="content/dots.png" alt="dots" class="r-dot">
             <img src="content/dots.png" alt="dots" class="l-dot">
@@ -672,7 +672,7 @@
                     </ul>
                     <a href="#">Choose Plan</a>
                 </div>
-                <div class="plan">
+                <div class="plan two">
                     <div class="head">
                         <h2>Advanced</h2>
                         <img src="content/hosting-advanced.png" alt="Advanced Plan" width="80px">
@@ -708,7 +708,7 @@
         </div>
     <!-- End Pricing -->
     <!-- Start Videos -->
-    <div class="videos">
+    <div class="videos" id="videos">
         <div class="special-head"><p>TOP VIDEOS</p></div>
         <div class="container">
             <div class="box">
@@ -755,27 +755,27 @@
     </div>
     <!-- End Videos -->
     <!-- Start Stats -->
-    <div class="stats">
+    <div class="stats" id="stats">
         <div class="container">
                 <h1>Our Awesome Stats</h1>
                 <div class="boxes">
                     <div class="box">
-                        <i class="fa-regular fa-user user"></i>
+                        <i class="fa-regular fa-user icon"></i>
                         <p>150</p>
                         <i>clients</i>
                     </div>
                     <div class="box">
-                        <i class="fa-regular fa-user user"></i>
+                        <i class="fa-solid fa-code icon"></i>
                         <p>135</p>
                         <i>Projects</i>
                     </div>
                     <div class="box">
-                        <i class="fa-regular fa-user user"></i>
+                        <i class="fa-solid fa-earth-africa icon"></i>
                         <p>50</p>
                         <i>Country</i>
                     </div>
                     <div class="box">
-                        <i class="fa-regular fa-user user"></i>
+                        <i class="fa-solid fa-money-bill-1 icon"></i>
                         <p>500</p>
                         <i>Money</i>
                     </div>
@@ -784,7 +784,7 @@
     </div>
     <!-- End Stats -->
     <!-- Start Discount -->
-    <div class="discount">
+    <div class="discount" id="discount">
         <div class="image">
             <div class="content">
                 <h1>We Have A Discount</h1>
@@ -805,14 +805,14 @@
     </div>
     <!-- End Discount -->
     <!-- Start Footer -->
-    <footer>
+    <footer id="footer">
         <div class="container">
             <div class="social">
                 <h1>Elzero</h1>
                 <div class="social-links">
-                    <a href="#" class="fa-brands fa-github github"></a>
-                    <a href="#" class="fa-brands fa-x-twitter x"></a>
-                    <a href="#" class="fa-brands fa-linkedin-in linkedin"></a>
+                    <a href="https://github.com/Mohamed-A-7" target="_blank" class="fa-brands fa-github github"></a>
+                    <a href="https://x.com/Mohamed__A__7" target="_blank" class="fa-brands fa-x-twitter x"></a>
+                    <a href="https://www.linkedin.com/in/mohamed--a--7--k/" target="_blank" class="fa-brands fa-linkedin-in linkedin"></a>
                 </div>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus nulla rem, dignissimos iste aspernatur</p>
             </div>
@@ -841,15 +841,15 @@
                 </div>
             </div>
             <div class="gall">
-                <img src="content/gallery-01.png" alt="gallery">
-                <img src="content/gallery-02.png" alt="gallery">
-                <img src="content/gallery-03.jpg" alt="gallery">
-                <img src="content/gallery-04.png" alt="gallery">
-                <img src="content/gallery-05.jpg" alt="gallery">
-                <img src="content/gallery-06.png" alt="gallery">
+                <img src="content/gallery-01.png" alt="gallery" width="78px" height="78px">
+                <img src="content/gallery-02.png" alt="gallery" width="78px" height="78px">
+                <img src="content/gallery-03.jpg" alt="gallery" width="78px" height="78px">
+                <img src="content/gallery-04.png" alt="gallery" width="78px" height="78px">
+                <img src="content/gallery-05.jpg" alt="gallery" width="78px" height="78px">
+                <img src="content/gallery-06.png" alt="gallery" width="78px" height="78px">
             </div>
         </div>
-        <p>Made With &lt;3 By Elzero</p>
+        <p class="copyright">Made With &lt;3 By Elzero</p>
     </footer>
     <!-- End Footer -->
 </body>
