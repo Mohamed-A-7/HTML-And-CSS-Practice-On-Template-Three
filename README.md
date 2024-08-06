@@ -1,6 +1,3 @@
-# Let's create another README.md file with the provided content.
-
-readme_content_template_three = """
 # HTML and CSS Practice - Template Three
 
 ## Overview
